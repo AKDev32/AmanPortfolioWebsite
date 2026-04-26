@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aman Kumar</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header id="masthead">
+    <div class="masthead-inner">
+      <a href="#" class="site-title">Aman Kumar</a>
+      <nav class="greedy-nav" aria-label="Main navigation">
+        <a href="#" id="nav-about" class="active">About</a>
+        <a href="#" id="nav-cv">CV</a>
+        <a href="#" id="nav-research">Research</a>
+        <a href="#" id="nav-projects">Projects</a>
+        <a href="#" id="nav-contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="#" id="mnav-about" class="active">About</a>
+    <a href="#" id="mnav-cv">CV</a>
+    <a href="#" id="mnav-research">Research</a>
+    <a href="#" id="mnav-projects">Projects</a>
+    <a href="#" id="mnav-contact">Contact</a>
+  </nav>
+
+  <div class="mobile-author-strip">
+    <img id="mobile-avatar" src="AmanSahab.jpeg" alt="Aman Kumar" />
+    <div id="mobile-fallback" class="mobile-avatar-fallback">AK</div>
+    <div class="mobile-author-info">
+      <div class="mobile-author-name">Aman Kumar</div>
+      <div class="mobile-author-role">Aspiring Software Engineer</div>
+      <div class="mobile-social-links">
+        <a href="https://www.linkedin.com/in/aman32" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/AKDev32" target="_blank" rel="noopener">Github</a>
+        <a href="https://instagram.com/YOUR_HANDLE" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://discord.com/users/YOUR_ID" target="_blank" rel="noopener">Discord</a>
+        <a href="https://leetcode.com/YOUR_USERNAME" target="_blank" rel="noopener">LeetCode</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="main">
+
+    <aside class="sidebar" aria-label="Author info">
+      <div class="author-avatar">
+        <img id="sidebar-avatar" src="AmanSahab.jpeg" alt="Aman Kumar" />
+        <div id="sidebar-fallback" class="avatar-fallback">AK</div>
+      </div>
+      <div class="author-name">Aman Kumar</div>
+      <div class="author-bio">Aspiring Software Engineer</div>
+      <span class="follow-label">Follow</span>
+      <ul class="author-links">
+        <!-- LinkedIn -->
+        <li>
+          <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+          <a href="https://www.linkedin.com/in/aman32" target="_blank" rel="noopener">LinkedIn</a>
+        </li>
+        <!-- GitHub -->
+        <li>
+          <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+          <a href="https://github.com/AKDev32" target="_blank" rel="noopener">Github</a>
+        </li>
+        <!-- Instagram -->
+        <li>
+          <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+          </svg>
+          <a href="https://instagram.com/im_amankumarr" target="_blank" rel="noopener">Instagram</a>
+        </li>
+        <!-- Discord -->
+        <li>
+          <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+          </svg>
+          <a href="https://discord.com/users/im_amankumar" target="_blank" rel="noopener">Discord</a>
+        </li>
+        <!-- LeetCode -->
+        <li>
+          <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M13.483 0a1.374 1.374 0 00-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 00-1.209 2.104 5.35 5.35 0 00-.125 2.227 5.379 5.379 0 00.506 1.923 5.307 5.307 0 001.08 1.625l3.113 3.748.158.192a5.31 5.31 0 001.406 1.072 5.371 5.371 0 003.86.504 5.33 5.33 0 001.802-.811l.026-.018 3.016-2.068a.675.675 0 00.028-.952l-1.735-1.867a.674.674 0 00-.897-.065l-2.207 1.51a1.374 1.374 0 01-1.55-.021 1.37 1.37 0 01-.544-.95V9.368a1.374 1.374 0 012.356-.961l4.07 4.374a.674.674 0 00.958.003l1.818-1.843a.674.674 0 00-.003-.955L13.483 0zm4.773 12.358l-3.91-4.2a3.122 3.122 0 00-5.337 2.21v5.264a3.12 3.12 0 001.238 2.487 3.122 3.122 0 003.54.05l1.415-.969-1.004-1.08-1.162.797a1.374 1.374 0 01-1.55-.021 1.374 1.374 0 01-.477-.618V15.37l4.77-4.77-.523-.242z"/>
+          </svg>
+          <a href="https://leetcode.com/amankr32" target="_blank" rel="noopener">LeetCode</a>
+        </li>
+      </ul>
+    </aside>
+
+    <main class="content">
+
+      <!-- ABOUT -->
+      <section id="page-about" class="page-section active" aria-label="About">
+        <div class="about-text">
+          <p>
+            Hi everyone! I'm Aman Kumar from Jalandhar, Punjab, India.
+            I am an aspiring Software Engineer. I'm currently pursuing a Bachelor of Technology in
+            Computer Science and Engineering with a specialization in Software Engineering from
+            Punjab Technical University (PTU).
+          </p>
+          <p>
+            I have hands-on experience in full-stack web development and machine learning.
+            My technical skills include JavaScript, TypeScript, React, Next.js, Node.js, Express,
+            MongoDB, and SQL. I am also familiar with building scalable applications using the MERN
+            stack and working with modern tools like Git, Docker, and REST APIs.
+          </p>
+          <p>
+            Additionally, I have worked on machine learning projects such as Fake News Detection,
+            Credit Card Fraud Detection, and a NanoGPT-style language model, which strengthened my
+            understanding of NLP, deep learning, and model optimization.
+          </p>
+        </div>
+      </section>
+
+      <!-- CV -->
+      <!-- ════════════════════════════════════════════════════
+           HOW TO SET YOUR CV PDF:
+           Option A — Local file: put your PDF (e.g. "AmanCV.pdf")
+                      in the same folder as index.html, then set:
+                      CV_PDF_URL = "AmanCV.pdf"
+           Option B — Google Drive: share the file → "Anyone with link",
+                      copy the file ID from the URL, then set:
+                      CV_PDF_URL = "https://drive.google.com/file/d/FILE_ID/preview"
+           Option C — Any direct PDF URL (Dropbox, GitHub, etc.)
+      ════════════════════════════════════════════════════ -->
+      <section id="page-cv" class="page-section" aria-label="CV">
+
+        <div class="cv-viewer-wrap">
+          <div class="cv-viewer-toolbar">
+            <span class="cv-file-name">CV</span>
+            <div class="cv-toolbar-actions">
+              <a class="cv-btn cv-btn-download"
+                 href="CV26_AmanKumar_20040827.pdf"
+                 download="CV26_AmanKumar_20040827.pdf">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+                  <polyline points="7 10 12 15 17 10"/>
+                  <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                Download CV
+              </a>
+              <a class="cv-btn cv-btn-open"
+                 href="CV26_AmanKumar_20040827.pdf"
+                 target="_blank" rel="noopener">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                  <polyline points="15 3 21 3 21 9"/>
+                  <line x1="10" y1="14" x2="21" y2="3"/>
+                </svg>
+                Open in Tab
+              </a>
+            </div>
+          </div>
+          <!-- ↓ Replace YOUR_PDF_LINK_HERE with your PDF URL ↓ -->
+          <iframe
+            src="CV26_AmanKumar_20040827.pdf"
+            class="cv-iframe"
+            title="Aman Kumar CV"
+          ></iframe>
+        </div>
+
+      </section>
+
+      <!-- RESEARCH -->
+      <section id="page-research" class="page-section" aria-label="Research">
+        <h2 class="section-h2 first">Publications</h2>
+        <p style="font-size:0.88rem; color:var(--muted); margin-bottom:1.5rem; line-height:1.7;">
+          Research publications and academic work will appear here. Currently pursuing undergraduate studies with focus on NLP and full-stack development.
+        </p>
+
+        <h2 class="section-h2">Academic Work</h2>
+        <div class="pub-entry">
+          <div class="pub-title">Fake News Detection using NLP &amp; Deep Learning</div>
+          <div class="pub-authors">Aman Kumar</div>
+          <div class="pub-venue">Undergraduate Project, Punjab Technical University — 2024</div>
+        </div>
+        <div class="pub-entry">
+          <div class="pub-title">Credit Card Fraud Detection using Machine Learning</div>
+          <div class="pub-authors">Aman Kumar</div>
+          <div class="pub-venue">Undergraduate Project, Punjab Technical University — 2024</div>
+        </div>
+        <div class="pub-entry">
+          <div class="pub-title">NanoGPT-style Autoregressive Language Model</div>
+          <div class="pub-authors">Aman Kumar</div>
+          <div class="pub-venue">Personal Research Project — 2025</div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="page-projects" class="page-section" aria-label="Projects">
+
+        <!-- ── Full Stack Projects ── -->
+        <h2 class="section-h2 first">
+          <span class="section-h2-icon">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8 21 12 17 16 21"/>
+            </svg>
+          </span>
+          Full Stack Projects
+        </h2>
+
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-thumb thumb-fs1">
+              <span class="thumb-label">FS</span>
+            </div>
+            <div class="project-body">
+              <a class="project-title" href="https://github.com/AKDev32" target="_blank" rel="noopener">
+                MERN Stack E-Commerce App
+              </a>
+              <p class="project-desc">
+                A full-featured e-commerce application with user authentication, product management, cart, and order tracking — built with the MERN stack.
+              </p>
+              <div class="project-tags">
+                <span class="ptag">MongoDB</span>
+                <span class="ptag">Express</span>
+                <span class="ptag">React</span>
+                <span class="ptag">Node.js</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/AKDev32" class="project-link" target="_blank" rel="noopener">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb thumb-fs2">
+              <span class="thumb-label">FS</span>
+            </div>
+            <div class="project-body">
+              <a class="project-title" href="https://github.com/AKDev32" target="_blank" rel="noopener">
+                Next.js Blog Platform
+              </a>
+              <p class="project-desc">
+                A full-stack blogging platform with server-side rendering, markdown support, user auth, and a REST API backend powered by Express and MongoDB.
+              </p>
+              <div class="project-tags">
+                <span class="ptag">Next.js</span>
+                <span class="ptag">TypeScript</span>
+                <span class="ptag">MongoDB</span>
+                <span class="ptag">REST API</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/AKDev32" class="project-link" target="_blank" rel="noopener">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb thumb-fs3">
+              <span class="thumb-label">FS</span>
+            </div>
+            <div class="project-body">
+              <a class="project-title" href="https://github.com/AKDev32" target="_blank" rel="noopener">
+                REST API with Docker &amp; SQL
+              </a>
+              <p class="project-desc">
+                A scalable REST API service containerised with Docker, using SQL for data persistence, JWT authentication, and rate limiting middleware.
+              </p>
+              <div class="project-tags">
+                <span class="ptag">Node.js</span>
+                <span class="ptag">SQL</span>
+                <span class="ptag">Docker</span>
+                <span class="ptag">JWT</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/AKDev32" class="project-link" target="_blank" rel="noopener">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ── ML / AI Projects ── -->
+        <h2 class="section-h2">
+          <span class="section-h2-icon">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>
+            </svg>
+          </span>
+          ML / AI Projects
+        </h2>
+
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-thumb thumb-ml1">
+              <span class="thumb-label">ML</span>
+            </div>
+            <div class="project-body">
+              <a class="project-title" href="https://github.com/AKDev32" target="_blank" rel="noopener">
+                Fake News Detection
+              </a>
+              <p class="project-desc">
+                An NLP-based classifier that detects fake news articles using TF-IDF features and a fine-tuned deep learning model trained on labelled news datasets.
+              </p>
+              <div class="project-tags">
+                <span class="ptag">NLP</span>
+                <span class="ptag">Python</span>
+                <span class="ptag">Scikit-learn</span>
+                <span class="ptag">Deep Learning</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/AKDev32" class="project-link" target="_blank" rel="noopener">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb thumb-ml2">
+              <span class="thumb-label">ML</span>
+            </div>
+            <div class="project-body">
+              <a class="project-title" href="https://github.com/AKDev32" target="_blank" rel="noopener">
+                Credit Card Fraud Detection
+              </a>
+              <p class="project-desc">
+                A machine learning pipeline for detecting fraudulent credit card transactions using ensemble methods, SMOTE for class imbalance, and real-world datasets.
+              </p>
+              <div class="project-tags">
+                <span class="ptag">Python</span>
+                <span class="ptag">Pandas</span>
+                <span class="ptag">XGBoost</span>
+                <span class="ptag">SMOTE</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/AKDev32" class="project-link" target="_blank" rel="noopener">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb thumb-ml3">
+              <span class="thumb-label">ML</span>
+            </div>
+            <div class="project-body">
+              <a class="project-title" href="https://github.com/AKDev32" target="_blank" rel="noopener">
+                NanoGPT Language Model
+              </a>
+              <p class="project-desc">
+                A NanoGPT-style autoregressive transformer language model built from scratch in PyTorch — trained on custom text corpora with attention mechanism optimization.
+              </p>
+              <div class="project-tags">
+                <span class="ptag">PyTorch</span>
+                <span class="ptag">Transformers</span>
+                <span class="ptag">NLP</span>
+                <span class="ptag">GPT</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/AKDev32" class="project-link" target="_blank" rel="noopener">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-thumb thumb-ml4">
+              <span class="thumb-label">ML</span>
+            </div>
+            <div class="project-body">
+              <a class="project-title" href="https://github.com/AKDev32" target="_blank" rel="noopener">
+                Sentiment Analysis API
+              </a>
+              <p class="project-desc">
+                A production-ready sentiment analysis REST API using a fine-tuned BERT model, served via FastAPI with response caching and batch inference support.
+              </p>
+              <div class="project-tags">
+                <span class="ptag">BERT</span>
+                <span class="ptag">FastAPI</span>
+                <span class="ptag">Python</span>
+                <span class="ptag">Hugging Face</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a href="https://github.com/AKDev32" class="project-link" target="_blank" rel="noopener">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="page-contact" class="page-section" aria-label="Contact">
+        <h2 class="section-h2 first">Personal</h2>
+        <a class="contact-email" href="mailto:amankumar.cs27@gmail.com">amankumar.cs27@gmail.com</a>
+        <a class="contact-email" href="mailto:amankumar005562@gmail.com">amankumar005562@gmail.com</a>
+        <h2 class="section-h2">Professional</h2>
+        <a class="contact-email" href="mailto:aman.cse2323432@ptu.ac.in">aman.cse2323432@ptu.ac.in</a>
+      </section>
+
+    </main>
+  </div>
+
+  <footer>
+    &copy; 2026 Aman Kumar. Powered by
+    <a href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> &amp;
+    <a href="https://github.com/academicpages/academicpages.github.io" target="_blank" rel="noopener">AcademicPages</a>,
+    a fork of
+    <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" target="_blank" rel="noopener">Minimal Mistakes</a>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
